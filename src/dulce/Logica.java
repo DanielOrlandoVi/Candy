@@ -33,7 +33,7 @@ public class Logica {
         matriz = new int [fila][columna];
         for (int i=0;i<matriz.length;i++){
             for(int j=0;j<matriz[i].length;j++){
-                System.out.println("Ingrese el numero "+(j+1)+" de la columna"+(i+1));
+                System.out.println("Ingrese el numero "+(j+1)+" de la fila "+(i+1));
                 matriz[i][j]= teclado.nextInt();                
             }
         }
